@@ -15,6 +15,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 
+  gem 'therubyracer', :platforms => :ruby
+
 group :doc do
   gem 'sdoc', require: false
 end
